@@ -78,6 +78,5 @@ services:
 
 # create network: docker network create xnmp-network
 networks:
-  default:
-    external:
-      name: xnmp-network
+  xnpm-network: 
+    external: true
